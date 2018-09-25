@@ -1,0 +1,98 @@
+body {
+   background-color: rgb(151, 111, 125);
+}
+.row {
+    height: 400px;
+    width: 1400px;
+border: double rgb(0, 4, 255);
+}
+#one {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#columnone {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+#two {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+#two h1{
+    font-size: 45px;
+}
+#coloumntwo {
+    height:400px;
+    width: 600px;
+
+}
+#three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+height: 300px;
+width: 90%;
+background: rgb(50, 200, 205) ; 
+display: flex;  
+}
+#divsubone{
+    height: 250px;
+    width: 30%;
+    background: rgb(204, 56, 204);
+    margin: 3%;
+    margin-top: 2%;
+    text-align: center;
+    border-style: dashed;
+    border-color: white;
+    }
+
+#divsubtwo{
+    height: 250px;
+    width: 30%;
+    background: pink;
+    margin: 2%;
+    text-align: center;
+    border-style: dashed;
+    border-color: white;
+   
+}
+#divsubthree{
+    height: 250px;
+    width: 30%;
+    background: rgb(121, 121, 177); 
+    margin: 2%;
+    text-align: center;
+    border-style: dashed;
+    border-color: white;
+}
+img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+
+}
+.center {
+    float: center; 
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%;
+    border: 3px solid purple;
+    padding: 100px;
+}
+#four{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
