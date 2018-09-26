@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(151, 111, 125);
+   background-image: url("shapes.gif");
 }
 .row {
     height: 400px;
@@ -11,12 +11,16 @@ border: double rgb(0, 4, 255);
     grid-template-columns: 2fr 3fr;
 }
 
+
+}
+
 #columnone {
     height: 400px;
     width: 400px;
     display: grid;
     justify-content: center;
     align-content: center;
+   
     
 }
 #two {
@@ -28,10 +32,13 @@ border: double rgb(0, 4, 255);
 }
 #two h1{
     font-size: 45px;
+    color: whitesmoke;
+
 }
 #coloumntwo {
     height:400px;
     width: 600px;
+    color: whitesmoke;
 
 }
 #three {
@@ -43,13 +50,13 @@ border: double rgb(0, 4, 255);
 #container {
 height: 300px;
 width: 90%;
-background: rgb(50, 200, 205) ; 
+background: rgb(84, 98, 99) ; 
 display: flex;  
 }
 #divsubone{
     height: 250px;
     width: 30%;
-    background: rgb(204, 56, 204);
+    background: rgb(189, 159, 189);
     margin: 3%;
     margin-top: 2%;
     text-align: center;
@@ -87,7 +94,7 @@ img {
     margin-left: 30%;
     margin-top: 5%;
     width: 50%;
-    border: 3px solid purple;
+    border: 3px solid rgb(211, 195, 211);
     padding: 100px;
 }
 #four{
@@ -95,4 +102,8 @@ img {
     height: 15%;
     justify-content: center;
     align-items: center;
+
+}
+a {
+    color: whitesmoke;
 }
